@@ -23,11 +23,11 @@ const images = [
 const list = document.querySelector('#gallery');
 
 images.forEach((img) => {                                  //-----> Перебрали
-  const string = '<li></li>';                              //-----> Создали нужный тег в виде строки
+  const string = '<li><img></li>';                              //-----> Создали нужный тег в виде строки
   list.insertAdjacentHTML('afterbegin', string);           //-----> Добавили тег в нужное место
-  const li = list.querySelector('li');                     //-----> Выбрали нужный тег для дальнейшей привязки атрибутов
+  const li = list.querySelector('img');                     //-----> Выбрали нужный тег для дальнейшей привязки атрибутов
 
-  li.setAttribute('url', img['url']);                      //-----> Добавили первый атрибут по имени "ключа" обьекта
+  li.setAttribute('src', img['url']);                      //-----> Добавили первый атрибут по имени "ключа" обьекта
   li.setAttribute('alt', img['alt']);                      //-----> Добавили второй атрибут
   li.setAttribute('class', 'gallery');
   return console.log(img);

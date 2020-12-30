@@ -24,9 +24,7 @@ html {
 }
 
 .gallery {
-  width: 100px;
-  height: 100px;
-
-  margin: 30px;
-  background-color: aqua;
+  width: 300px;
+  height: auto;
+  margin: 10px;
 }
