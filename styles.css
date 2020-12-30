@@ -1,17 +1,3 @@
-/* Фон шапки - #FFFFFF; */
-/* Фон Топа №1 - #2F303A; */
-/* Фон Боди №1-2 - #E5E5E5*/
-/* Фон Низа №4 - #F5F4FA; */
-/* Фон Футера - #2F303A; */
-/* Цвет основного текста - #212121; */
-/* Цвет вторичного текста - #757575; */
-/* Цвет акцента - #2196F3 */
-/* Цвет текста адреса внизу - 
-rgba(255, 255, 255, 0.6); */
-
-/* Шрифт Лого - Raleway */
-/* Шрифт весь остальной -Roboto */
-
 /* ///////////////////////////////////////////////               GENERAL */
 
 html {
@@ -23,8 +9,35 @@ html {
   box-sizing: inherit;
 }
 
+/* <!------------------- Задание №3 --> */
 .gallery {
   width: 300px;
   height: auto;
   margin: 10px;
+}
+
+/* <!------------------- Задание №6 --> */
+
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input:focus {
+  outline: none;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.valid:focus {
+  outline: none;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
+
+#validation-input.invalid:focus {
+  outline: none;
 }
