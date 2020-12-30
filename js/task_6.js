@@ -20,4 +20,4 @@ const fk = () => {
   return;
 };
 
-input.addEventListener('input', fk);
+input.addEventListener('change', fk);
